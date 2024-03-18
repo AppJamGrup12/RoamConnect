@@ -49,7 +49,7 @@ class _AnasayfaState extends State<Anasayfa> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Bottom Navigation Bar Örneği'),
+        title: Text('Roam Connect'),
       ),
       body: Padding(
         padding: const EdgeInsets.only(bottom: 8.0),
@@ -71,7 +71,7 @@ class _AnasayfaState extends State<Anasayfa> {
                 label: '1',
               ),
               BottomNavigationBarItem(
-                icon: Icon(Icons.search),
+                icon: Icon(Icons.help_rounded),
                 label: '2',
               ),
               BottomNavigationBarItem(
@@ -88,15 +88,6 @@ class _AnasayfaState extends State<Anasayfa> {
             selectedItemColor: Colors.black, // Seçili öğe rengi
             unselectedItemColor: Colors.black.withOpacity(0.6), // Seçilmemiş öğe rengi
           ),
-        ),
-      ),
-      floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
-      floatingActionButton: SizedBox(
-        width: 60,
-        height: 60,
-        child: FloatingActionButton(
-          child: Icon(Icons.add),
-          onPressed: () {},
         ),
       ),
     );

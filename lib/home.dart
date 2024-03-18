@@ -18,7 +18,7 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Qcation'),
+        title: Text('Ana Sayfa'),
       ),
       body: SingleChildScrollView(
         child: Padding(
@@ -27,7 +27,7 @@ class MyHomePage extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(
-                'Current time: June 20th, 8:25 PM',
+                'June 20th, 8:25 PM',//yarına ayarla
                 style: TextStyle(fontSize: 16),
               ),
               SizedBox(height: 8),
